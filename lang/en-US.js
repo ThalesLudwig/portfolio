@@ -4,7 +4,7 @@ export const EN_US = {
   askMeAnything: "Ask me anything",
   projects: "Projects",
   skills: "Skills",
-  hero: "Full-stack software engineer. UI/UX Designer. Coffee connoisseur. Old-timer game lover. Javascript Guru.",
+  hero: "Full-stack engineer. UI/UX Designer. Coffee connoisseur. Old-timer game lover. Javascript Guru. Web mage.",
   cryptoPenguin: "The cold NFT explorer. Browse the Blockchain safely! Built with React and Moralis.",
   condofy: "An apartments management tool. Work in progress.",
   condofyServer: "The server-side code for the Condofy app, with NodeJS.",

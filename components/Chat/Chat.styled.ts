@@ -27,7 +27,7 @@ export const Container = styled.div<ContainerType>`
   justify-content: space-between;
 
   @media only screen and (max-width: ${SCREEN.MOBILE}) {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 180px);
   }
 `;
 
