@@ -1,0 +1,23 @@
+export const EN_US = {
+  bio: "Software Engineer and UX Designer. I am an always-learning machine that converts coffee into clean and scalable code. Working with React, Node, Vue, Angular, React Native, and Web3 technologies.",
+  greeting: "Hey, I'm Thales",
+  askMeAnything: "Ask me anything",
+  projects: "Projects",
+  skills: "Skills",
+  hero: "Full-stack software engineer. UI/UX Designer. Coffee connoisseur. Old-timer game lover. Javascript Guru.",
+  cryptoPenguin: "The cold NFT explorer. Browse the Blockchain safely! Built with React and Moralis.",
+  condofy: "An apartments management tool. Work in progress.",
+  condofyServer: "The server-side code for the Condofy app, with NodeJS.",
+  portfolio: "My portfolio and personal website. You are here now.",
+  journaly: "A privacy-focused journaling app made with React Native.",
+  moneyger: "A simple financial control app made with React Native.",
+  chatModuler: "A conversation tool based in modules. Click on 'ask me anything' and see it in action!",
+  graduation: "Development of Systems",
+  specialization1: "User Experience",
+  specialization2: "Mobile Apps Development",
+  graduationDescription: "Graduation - QI University",
+  specialization1Description: "Specialization - Uniritter",
+  specialization2Description: "Specialization - Uniritter",
+  chatGreeting:
+    "Hi, welcome to my portfolio! 😄. You're talking to an automated version of me. You can ask me about several things, like my projects, schooling, and even some trivia!",
+};
