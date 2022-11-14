@@ -5,7 +5,15 @@ type Project = {
   githubUrl?: string;
   externalUrl?: string;
   name: string;
-  description: "cryptoPenguin" | "condofy" | "condofyServer" | "portfolio" | "journaly" | "moneyger" | "chatModuler";
+  description:
+    | "cryptoPenguin"
+    | "condofy"
+    | "condofyServer"
+    | "portfolio"
+    | "journaly"
+    | "moneyger"
+    | "chatModuler"
+    | "cryptoPenguinSC";
 };
 
 export const localization = defineMessages({
@@ -16,6 +24,7 @@ export const localization = defineMessages({
   journaly: { id: "journaly" },
   moneyger: { id: "moneyger" },
   chatModuler: { id: "chatModuler" },
+  cryptoPenguinSC: { id: "cryptoPenguinSC" },
 });
 
 export const data: Project[] = [
@@ -25,6 +34,13 @@ export const data: Project[] = [
     externalUrl: "https://crypto-penguin.vercel.app/",
     githubUrl: "https://github.com/ThalesLudwig/crypto-penguin",
     imageUrl: "/projects/cryptoPenguin.png",
+  },
+  {
+    name: "Crypto-Penguin (smart-contract)",
+    description: "cryptoPenguinSC",
+    externalUrl: "https://mumbai.polygonscan.com/address/0x57a85092abde5bfcab5073e2785234c2d7fe1f39",
+    githubUrl: "https://gist.github.com/ThalesLudwig/cfd7ef8d9bb292d43891292481761e15",
+    imageUrl: "/projects/smart-contract.png",
   },
   {
     name: "Condofy",
