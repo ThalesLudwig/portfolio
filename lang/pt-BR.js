@@ -7,6 +7,7 @@ export const PT_BR = {
   hero: "Engenheiro full-stack. Designer UI/UX. Connoisseur de café. Gamer das antigas. Guru do Javascript. Mago da crypto.",
   cryptoPenguin: "O explorador de NFTs gelado. Navegue pela Blockchain com segurança!",
   cryptoPenguinSC: "O Smart Contract para o app Crypto-Penguin, feito em Solidity.",
+  penguinCoin: "O Token ERC20 da PenguinCoin (mumbai), com Solidity e Hardhat",
   condofy: "Ferramenta de gestão de condomínios. Em andamento.",
   condofyServer: "O servidor do app Condofy, with NodeJS.",
   portfolio: "Meu portfólio e website pessoal. Você está aqui agora.",

@@ -7,6 +7,7 @@ export const EN_US = {
   hero: "Full-stack engineer. UI/UX Designer. Coffee connoisseur. Old-timer game lover. Javascript Guru. Crypto mage.",
   cryptoPenguin: "The cold NFT explorer. Browse the Blockchain safely! Built with React and Moralis.",
   cryptoPenguinSC: "The Smart Contract for the Crypto-Penguin app, made with Solidity.",
+  penguinCoin: "The PenguinCoin ERC20 Token (mumbai), with Solidity and Hardhat",
   condofy: "An apartments management tool. Work in progress.",
   condofyServer: "The server-side code for the Condofy app, with NodeJS.",
   portfolio: "My portfolio and personal website. You are here now.",

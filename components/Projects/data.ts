@@ -13,7 +13,8 @@ type Project = {
     | "journaly"
     | "moneyger"
     | "chatModuler"
-    | "cryptoPenguinSC";
+    | "cryptoPenguinSC"
+    | "penguinCoin";
 };
 
 export const localization = defineMessages({
@@ -25,6 +26,7 @@ export const localization = defineMessages({
   moneyger: { id: "moneyger" },
   chatModuler: { id: "chatModuler" },
   cryptoPenguinSC: { id: "cryptoPenguinSC" },
+  penguinCoin: { id: "penguinCoin" },
 });
 
 export const data: Project[] = [
@@ -41,6 +43,13 @@ export const data: Project[] = [
     externalUrl: "https://mumbai.polygonscan.com/address/0x57a85092abde5bfcab5073e2785234c2d7fe1f39",
     githubUrl: "https://gist.github.com/ThalesLudwig/cfd7ef8d9bb292d43891292481761e15",
     imageUrl: "/projects/smart-contract.png",
+  },
+  {
+    name: "Penguin-Coin",
+    description: "penguinCoin",
+    externalUrl: "https://mumbai.polygonscan.com/address/0xd4e7f2dae582a9bc8c8ccc139c8c317aa10155bb",
+    githubUrl: "https://github.com/ThalesLudwig/PenguinCoin",
+    imageUrl: "/projects/penguinCoin.png",
   },
   {
     name: "Condofy",
