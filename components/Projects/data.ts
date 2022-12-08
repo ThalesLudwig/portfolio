@@ -40,7 +40,7 @@ export const data: Project[] = [
   {
     name: "Crypto-Penguin (smart-contract)",
     description: "cryptoPenguinSC",
-    externalUrl: "https://mumbai.polygonscan.com/address/0x57a85092abde5bfcab5073e2785234c2d7fe1f39",
+    externalUrl: "https://mumbai.polygonscan.com/address/0x4868907a8d8c06f804997d047587687258914490",
     githubUrl: "https://gist.github.com/ThalesLudwig/cfd7ef8d9bb292d43891292481761e15",
     imageUrl: "/projects/smart-contract.png",
   },
