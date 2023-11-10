@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { setEnglish, setPortuguese } from "../../config/locationSlice";
 import { switchTheme } from "../../config/themeSlice";
 import { AppDispatch } from "../../config/store";
-import { getRandomAvatar } from "../../helpers/getRandomAvatar";
 import { LANGUAGE } from "../../lang";
 import StoreType from "../../types/StoreType";
 import Button from "../Button/Button";
@@ -43,10 +42,10 @@ function Header() {
         <Avatar src="/expression_1.png" />
         <Title>{formatMessage(localization.greeting)}</Title>
       </Wrapper>
-      <ChatInput onClick={toogleChat}>
+      {/* <ChatInput onClick={toogleChat}>
         {isChatOpen ? "" : formatMessage(localization.askMeAnything)}
         <ChatIcon>{isChatOpen ? <FiX /> : <FiMessageCircle />}</ChatIcon>
-      </ChatInput>
+      </ChatInput> */}
       <Wrapper>
         <ChatMobile onClick={toogleChat}>
           <Button isOutlined>{isChatOpen ? <FiX /> : <FiMessageCircle />}</Button>
